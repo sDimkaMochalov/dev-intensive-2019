@@ -12,6 +12,7 @@ data class User(
     var respect : Int = 0,
     var lastVisit : Date? = Date(),
     var isOnline : Boolean = false
+
 ) {
 
     companion object Factory {
